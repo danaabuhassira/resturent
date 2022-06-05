@@ -1,15 +1,17 @@
 <x-guest-layout>
     <!-- Main Hero Content -->
     <div class="container max-w-lg px-4 py-32 mx-auto text-left bg-center bg-no-repeat bg-cover md:max-w-none md:text-center"
-        style="background-image: url('https://cdn.pixabay.com/photo/2016/11/18/14/39/beans-1834984_960_720.jpg')">
+
+    style="background-image: url('https://cdn.pixabay.com/photo/2016/11/18/14/39/beans-1834984_960_720.jpg')"
+
+        >
+
         <h1
             class="font-mono text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 md:text-center sm:leading-none lg:text-5xl">
-            <span class="inline md:block">Welcome To Larainfo Restaurant</span>
+            <span class="inline md:block">Welcome To Mazaj Restaurant</span>
         </h1>
         <div class="mx-auto mt-2 text-green-50 md:text-center lg:text-lg">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta voluptatem ab necessitatibus illo
-            praesentium
-            culpa excepturi quae commodi quaerat,
+            Welcome to our resturant !!
         </div>
         <div class="flex flex-col items-center mt-12 text-center">
             <span class="relative inline-flex w-full md:w-auto">
@@ -71,11 +73,10 @@
                             class="mb-4 text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
                             WHY CHOOSE US?</h2>
 
-                        <p class="mb-4 font-medium tracking-tight text-gray-400 xl:mb-6">Lorem ipsum dolor sit amet
-                            consectetur
-                            adipisicing elit. Natus hic atque magni minus aliquam, eos quam incidunt nam iusto sunt
-                            voluptates
-                            inventore a veritatis doloremque corrupti. Veritatis est expedita cupiditate!</p>
+                        <p class="mb-4 font-medium tracking-tight text-gray-400 xl:mb-6">Visit us to find what makes you happy
+                            We have many Arabic and Western dishes
+                            delicious flavors
+                        </p>
                         <ul>
                             <li class="flex items-center py-2 space-x-4 xl:py-3">
                                 <svg class="w-8 h-8 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"
@@ -114,10 +115,10 @@
         </div>
     </section>
     <section class="mt-8 bg-white">
-        <div class="mt-4 text-center">
+        {{-- <div class="mt-4 text-center">
             <h3 class="text-2xl font-bold">Our Menu</h3>
             <h2 class="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
-                TODAY'S SPECIALITY</h2>
+                TODAY'S SPECIALITY</h2> --}}
         </div>
         <div class="container w-full px-5 py-6 mx-auto">
             <div class="grid lg:grid-cols-4 gap-y-6">
@@ -151,11 +152,9 @@
                 </div>
                 <div>
                     <h2 class="text-3xl font-semibold text-gray-800">Food</h2>
-                    <p class="mt-2 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores
-                        deserunt
-                        ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis
-                        pariatur
-                        minus consequuntur!</p>
+                    <p class="mt-2 text-gray-600">I recommend everyone to visit the restaurant
+
+                        It was a great experience!!</p>
                 </div>
                 <div class="flex justify-end mt-4">
                     <a href="#" class="text-xl font-medium text-green-500">John Doe</a>
@@ -168,14 +167,23 @@
                 </div>
                 <div>
                     <h2 class="text-3xl font-semibold text-gray-800">Food</h2>
-                    <p class="mt-2 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores
-                        deserunt
-                        ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis
-                        pariatur
-                        minus consequuntur!</p>
+                    <p class="mt-2 text-gray-600">Good Job !!!
+                        keep Going <!DOCTYPE html>
+                        <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                            <title>Document</title>
+                        </head>
+                        <body>
+
+                        </body>
+                        </html>
+                    </p>
                 </div>
                 <div class="flex justify-end mt-4">
-                    <a href="#" class="text-xl font-medium text-green-500">John Doe</a>
+                    <a href="#" class="text-xl font-medium text-green-500">Ann joe</a>
                 </div>
             </div>
             <div class="max-w-md p-4 bg-white rounded-lg shadow-lg">
@@ -185,14 +193,11 @@
                 </div>
                 <div>
                     <h2 class="text-3xl font-semibold text-gray-800">Food</h2>
-                    <p class="mt-2 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores
-                        deserunt
-                        ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis
-                        pariatur
-                        minus consequuntur!</p>
+                    <p class="mt-2 text-gray-600">It was a great experience at Mazaj Restaurant
+                        It won't be the last visit</p>
                 </div>
                 <div class="flex justify-end mt-4">
-                    <a href="#" class="text-xl font-medium text-green-500">John Doe</a>
+                    <a href="#" class="text-xl font-medium text-green-500">Ammy Gorge</a>
                 </div>
             </div>
         </div>
